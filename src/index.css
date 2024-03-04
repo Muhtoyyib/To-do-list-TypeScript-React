@@ -134,3 +134,12 @@ li button:hover {
 .makeCapital{
   text-transform: uppercase;
 }
+
+footer{
+  margin-top: 2rem;
+}
+
+a{
+  color: #f9a73b;
+  text-decoration: none;
+}

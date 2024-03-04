@@ -39,6 +39,13 @@ export default function App() {
       <NewGoal handleAddGoal={handleAddGoal}/>
 
       <CourseGoalList goals={goals} onDelete={handleDeleteGoal} />
+
+      <footer>
+        Have any questions? Contact me through <a href="mailto:akandeolalekantoheeb94@gmail.com"> Email</a> 
+        <a href="https://www.linkedin.com/in/akande-olalekan-toheeb-2a69a0221/"> Linkedln</a> 
+        <a href="https://twitter.com/devtoheeb"> Twitter</a>
+        
+      </footer>
     </main>
   )
 }
