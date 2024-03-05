@@ -3,7 +3,7 @@ import CourseGoalList from "./components/CourseGoalList.tsx";
 import NewGoal from "./components/NewGoal.tsx";
 
 import goalsImage from './assets/goals.jpg'
-import { useState } from "react";
+import {useState } from "react";
 
 export interface CourseGoalProps{
   title: string;
@@ -36,7 +36,7 @@ export default function App() {
         <h1>Your Course Goals</h1>
       </Header>
 
-      <NewGoal handleAddGoal={handleAddGoal}/>
+      <NewGoal handleAddGoal={handleAddGoal} goals={goals}/>
 
       <CourseGoalList goals={goals} onDelete={handleDeleteGoal} />
 
